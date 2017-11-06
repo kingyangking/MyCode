@@ -2,19 +2,19 @@ package counter;
 
 public class Counter {
 	
-	private String lastOp;//´¢´æµÚ¶ş¸öÊı
-	private String firstNum = null;//´¢´æµÚÒ»¸öÊı
+	private String lastOp;//å‚¨å­˜ç¬¬äºŒä¸ªæ•°
+	private String firstNum = null;//å‚¨å­˜ç¬¬ä¸€ä¸ªæ•°
 	private double store;
 	private String numString = "0123456789.";
-	private String opString = "+-¡Á¡Â%";
+	private String opString = "+-Ã—Ã·%";
 	private static int mm;
 	
-	//ÇåÁã
+	//æ¸…é›¶
 	public String clearAll(){
 		this.firstNum =null;
 		return this.firstNum;
 	}
-	
+	//åˆ é™¤ä¸€ä¸ª
 	public String backSpace(String text1){
 		int m=text1.length();
 		this.firstNum =text1.substring(0, m-1);
@@ -29,7 +29,7 @@ public class Counter {
 			 this.firstNum = text+cmd;
 		return this.firstNum;
 	}
-	
+	//åŠ å‡ä¹˜é™¤ï¼Œå–ä½™ï¼Œè¿ç®—
 	public  String setOp(String cmd,String text)
 	{	
 		char m=cmd.charAt(0);
@@ -37,15 +37,15 @@ public class Counter {
 		{
 		case '+': mm=1;break;
 		case '-': mm=2;break;
-		case '¡Á': mm=3;break;
-		case '¡Â': mm=4;break;
+		case 'Ã—': mm=3;break;
+		case 'Ã·': mm=4;break;
 		case '%': mm=5;break;
 		}
 		
 		this.lastOp=text;this.firstNum=null;
 		return this.firstNum;
 	}
-	
+	//è®¡ç®—ç»“æœ
 	public String cal(String text)
 	{
 		this.firstNum=text;
@@ -59,7 +59,7 @@ public class Counter {
 		case 4: if(!"0".equals(this.firstNum)){
 			this.store=Double.parseDouble(this.lastOp)/Double.parseDouble(this.firstNum);}
 			else
-				{store1="±»³ıÊı²»ÄÜÎªÁã";
+				{store1="è¢«é™¤æ•°ä¸èƒ½ä¸ºé›¶";
 				return store1;}
 				break;
 		case 5: this.store=Double.parseDouble( this.lastOp)%Double.parseDouble(this.firstNum);break;
@@ -70,16 +70,16 @@ public class Counter {
 	}
 	public String callMethod(String cmd,String text){
 		if(cmd.equals("C")){
-			return clearAll();//ÇåÁã
-		}else if (cmd.equals("¡û")) {
-			return backSpace(text);
+			return clearAll();//æ¸…é›¶
+		}else if (cmd.equals("â†")) {
+			return backSpace(text);//åˆ é™¤ä¸€ä¸ª
 		}else if (numString.indexOf(cmd) != -1) {
-			return catNum(cmd, text);
+			return catNum(cmd, text);//æ•°å­—å‡½æ•°
 		}else if (opString.indexOf(cmd) != -1) {
-			return setOp(cmd, text);
+			return setOp(cmd, text);//åŠ å‡ä¹˜é™¤ï¼Œå–ä½™ï¼Œè¿ç®—
 		}
 		else if(cmd.equals("=")){
-			return cal(text);
+			return cal(text);//è®¡ç®—ç»“æœ
 		}else {
 			return null;
 		}
