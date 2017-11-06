@@ -7,7 +7,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.JScrollPane;
+
 import javax.swing.JTextArea;
 
 
@@ -15,7 +15,6 @@ public class Ui extends JFrame implements ActionListener {
 	JPanel mb1;
 	JButton[] an=new JButton[21];
 	JTextArea wby;
-	JScrollPane gd;
 	Counter counter = new Counter(); 
 	Ui()
 	{
@@ -24,12 +23,12 @@ public class Ui extends JFrame implements ActionListener {
 		 an[1] =new JButton("1");an[2] =new JButton("2");an[3] =new JButton("3");an[4] =new JButton("4");
 		 an[5] =new JButton("5");an[6] =new JButton("6");an[7] =new JButton("7");an[8] =new JButton("8");
 		 an[9] =new JButton("9");an[10]=new JButton("0");an[11] =new JButton("C");an[12]=new JButton("¡û");
-	     an[13]=new JButton("¡Â");an[14] =new JButton("£«");an[15]=new JButton("£­");an[16]=new JButton("¡Á");
-		 an[17]=new JButton("=");an[18]=new JButton("."); an[19]=new JButton("{}");an[20] =new JButton("£¥");
+	     an[13]=new JButton("¡Â");an[14] =new JButton("+");an[15]=new JButton("-");an[16]=new JButton("¡Á");
+		 an[17]=new JButton("=");an[18]=new JButton("."); an[19]=new JButton("{}");an[20] =new JButton("%");
 		 wby = new JTextArea();
 		 wby.setFont(new Font("ËÎÌå",Font.BOLD,30));
 		 wby.setEditable(false);
-		 gd = new JScrollPane(wby);
+		
 		 for(int i=1;i<=20;i++)
 		 {
 			 an[i].addActionListener(this);
@@ -40,7 +39,7 @@ public class Ui extends JFrame implements ActionListener {
 		 mb1.add(an[4]);mb1.add(an[5]);mb1.add(an[6]);mb1.add(an[15]);
 		 mb1.add(an[1]);mb1.add(an[2]);mb1.add(an[3]);mb1.add(an[14]);
 		 mb1.add(an[19]);mb1.add(an[10]);mb1.add(an[18]);mb1.add(an[17]);
-		 this.add(gd);
+		 this.add(wby);
 		 this.add(mb1,BorderLayout.SOUTH);
 		 
 		 this.setTitle("¼ÆËãÆ÷");
@@ -55,18 +54,12 @@ public class Ui extends JFrame implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		String cmd = e.getActionCommand();
 		String result = null;
-		wby.setText(cmd);
-		result = counter..callMethod(cmd, wby.getText());
-		
-		
-		
-		
-		 
-		 
+		result = counter.callMethod(cmd, wby.getText());
+		wby.setText(result);		 
 	}
 public static void main(String[] args) {
 		
-		Ui gg =new Ui();
+		new Ui();
 	}
 	
 }
