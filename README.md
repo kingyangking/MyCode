@@ -1,3 +1,48 @@
+<p align="center">
+    <img src="https://images.gitee.com/uploads/images/2019/0109/214218_d2aa949b_551203.png" width="300">
+    <br>      
+    <br>      
+    <p align="center">
+      具有2600套成品系统，包括ssm项目，springboot项目，小程序项目，同时提供设计文档、PPT资料等
+       如需完整源码，可以联系客服QQ购买：3221541098
+      提供1.远程部署2.修改代码3.设计文档指导4.框架代码讲解等服务
+ 适合人群
+  大学生、系统设计人员、毕业设计、课程作业
+        <br>      
+        <br>      
+        <span>
+            <span>
+                客服QQ：3221541098
+            </span>
+        </span>
+        <br>
+        <br>
+        <a href="https://getbootstrap.com/">
+            <img src="https://img.shields.io/badge/bootstrap-4.0-blue.svg" alt="bootstrap">
+        </a>  
+        <a href="https://cn.vuejs.org/index.html">
+            <img src="https://img.shields.io/badge/vue-2.5.17-blue.svg" alt="vue">
+        </a>    
+        +
+        <a href="http://spring.io/projects/spring-boot">
+            <img src="https://img.shields.io/badge/spring--boot-2.1.1-green.svg" alt="spring-boot">
+        </a>
+        <a href="http://mp.baomidou.com">
+            <img src="https://img.shields.io/badge/mybatis--plus-3.0-blue.svg" alt="mybatis-plus">
+        </a>  
+        <a href="http://ibeetl.com/">
+            <img src="https://img.shields.io/badge/beetl-2.9.3-yellow.svg" alt="beetl">
+        </a> 
+        <a href="https://shiro.apache.org/">
+            <img src="https://img.shields.io/badge/shiro-1.4.0-blue.svg" alt="shiro">
+        </a>      
+    </p>
+</p>
+
+-----------------------------------------------------------------------------------------------
+
+
+
 ## 具有2600套成品系统，包括ssm项目，springboot项目，小程序项目，
 ## 同时提供设计文档、PPT资料等
 
