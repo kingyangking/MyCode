@@ -63,14 +63,20 @@
 
 学生：登录注册、入团、参加活动等
 
+![image](https://github.com/user-attachments/assets/1eecb061-52aa-431e-831c-f555600ff469)
+
 ======
 
 ### 2基于springboot的自习室管理系统 
 
 拥有两种角色：
+
 管理员：自习室管理、预约管理、公告管理、学生管理等
 
 学生：登录注册、预定座位、查看公告
+![e1e8f281cf1ca3342b0d05980a3e809](https://github.com/user-attachments/assets/9a7d0431-b4f3-41ab-b04a-c2b93c9e0521)
+![5d94d6ab014674e6b9c4e0ae52eac15](https://github.com/user-attachments/assets/1235601d-81d1-4a08-9b4d-3dfe4c5654bc)
+![5d94d6ab014674e6b9c4e0ae52eac15](https://github.com/user-attachments/assets/27e9a0b9-f434-45de-af7a-3ce16c1f66b7)
 
 ======
 
@@ -84,6 +90,10 @@
 
 业务员：开具检查单等
 
+![image](https://github.com/user-attachments/assets/a2457208-f7a7-4507-b68c-42e9090b8330)
+![image](https://github.com/user-attachments/assets/fdcabf31-32fc-4c59-ad4a-7de6d309298e)
+![image](https://github.com/user-attachments/assets/41c82b92-26d5-468c-9df5-c4adbc11f13b)
+
 ======
 
 ### 4基于springboot的论坛管理系统 
@@ -93,6 +103,8 @@
 管理员：用户管理、公告管理、帖子管理、分类管理、留言管理、系统管理等
 
 用户：登录注册、查看发布帖子等
+![image](https://github.com/user-attachments/assets/30190ce9-8c41-4ee3-93ea-e359a39a516d)
+![image](https://github.com/user-attachments/assets/4f64cb69-5d32-455e-915b-fac6bfae8ebd)
 
 ======
 
@@ -387,6 +399,33 @@
 
 ======
 
+### 32基于springboot的教师人事档案管理系统
+
+拥有两种角色
+
+管理员：教师管理、课程管理、奖惩管理、档案管理、档案变动管理、报名管理等
+
+教师：登录注册、查看公告、申请档案变动、查看各种信息、收藏、发布帖子、报名学习等
+![bf8fa9ae99980b4ba51e3c114709dff](https://github.com/user-attachments/assets/8db4e04f-a191-4595-9fd0-566965956cba)
+
+![5e91d08acbb53345e1c6885bb941e2d](https://github.com/user-attachments/assets/7eb2b090-efb0-421e-aa3e-c08e4b36a25b)
+
+![720e0566d1be099c4ce9f907cac8466](https://github.com/user-attachments/assets/df61e3d3-0828-4c14-bc71-e2c95336d770)
+
+======
+
+### 33基于springboot的健身房管理系统
+
+管理员：会员管理、员工管理、会员卡管理、教练信息管理、解聘管理、健身器材管理、健身活动管理、健身项目管理
+
+用户：健身器材管理、健身活动管理、健身项目管理
+
+员工：教练信息管理、解聘管理、健身器材管理、健身活动管理、健身项目管理
+![4935f2c7edc7613795e235f4c496939](https://github.com/user-attachments/assets/c03474bd-dd71-4a44-90f0-4f088de47058)
+![3fb45d13575891fd03cfe4be2087578](https://github.com/user-attachments/assets/12cfb140-adf7-40a9-9873-09a9d7a8caf8)
+![0deef13a51b1dd015d8d17c82379c5a](https://github.com/user-attachments/assets/74c46ae7-e4f0-48e5-93a9-f5d9de60d543)
+
+======
 ### 未完待更新
 
 
