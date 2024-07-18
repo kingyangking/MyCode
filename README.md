@@ -427,6 +427,20 @@
 ![0deef13a51b1dd015d8d17c82379c5a](https://github.com/user-attachments/assets/74c46ae7-e4f0-48e5-93a9-f5d9de60d543)
 
 ======
+
+
+### 34基于协同过滤算法的图书推荐系统
+
+拥有两种角色：管理员、用户
+
+具有功能：首页、个人中心、用户管理、书籍管理、书籍分类管理、热门图书管理、我的收藏管理、系统管理、订单管理等功能
+
+![c7a5880d9480292f7de808c86bedd48](https://github.com/user-attachments/assets/565d218d-fa5e-4667-a60b-4e32e965acd9)
+![7cec7defe829076ea4871b83123b06c](https://github.com/user-attachments/assets/82bced84-4080-4242-9ebc-05d74d7e2954)
+![c66830c40341d1490342d7b975ce31b](https://github.com/user-attachments/assets/1f9555ff-714c-425b-a0b3-02d31e3797b1)
+![b7e284adfdb120b04c52a709fa5cea9](https://github.com/user-attachments/assets/108b645c-e2c6-494e-a1b1-f20f83fa5c8d)
+![ed1c1e6094ec878c770c8b42aa873be](https://github.com/user-attachments/assets/d12928a5-ac6e-43d5-bff3-5a45fa6bf9b8)
+
 ### 未完待更新
 
 
