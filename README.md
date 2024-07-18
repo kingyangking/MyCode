@@ -43,6 +43,16 @@
 </p>
 
 -----------------------------------------------------------------------------------------------
+### 部分成品代码项目截图
+![7b60a4984561067dac5a9870fc6f977](https://github.com/user-attachments/assets/b4c86c10-2aff-4e60-bae3-8de1c8caeef2)
+![d1be5121aec20172f2989109c5414a8](https://github.com/user-attachments/assets/514d0e55-e36d-479e-bff7-8182669a29a6)
+![070143e186ae5f1ca95d81aedcd5c71](https://github.com/user-attachments/assets/c3bd44ba-7c83-43cd-a54e-617af4035cbb)
+![391c20e92a029cf202ef1e53044a197](https://github.com/user-attachments/assets/4f18a032-a7a7-46e7-96a9-283f3854d549)
+![8e105aa3ebea14976e8b51d0b07b165](https://github.com/user-attachments/assets/f7dbf90f-79a9-4d74-9282-6eaea16a33d6)
+![ea964d463a4ced3731d385f0b744475](https://github.com/user-attachments/assets/5299028d-4c22-4109-af57-af12ee3c433c)
+
+
+-----------------------------------------------------------------------------------------------
 
 ### 1.基于springboot和vue的社团管理系统 
 
@@ -63,7 +73,6 @@
 学生：登录注册、预定座位、查看公告
 
 ======
-
 
 ### 3基于springboot的汽车租赁管理系统 
 
